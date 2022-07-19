@@ -1,0 +1,97 @@
+body{background-color:#101010;height:275%}
+.box1{background-color:red;height:170px;width:100%;display:flex;flex-direction:row}
+.box2{background-color:black;height:170px;width:50%;display:flex;align-items:center }
+.box3{background-color:black;height:170px;width:50%;display:flex;align-items:center;justify-content:space-around}
+.h{font-style:italic;font-size:40px;margin-left:130px;color:white;text-shadow:2px 2px 40px white}
+.box4{border:1px solid #ccc;height:60px;width:130px;border-radius:20px 20px 20px 20px;text-align:center;font-size:18px;padding-top:18px;box-sizing:border-box;color:white}
+.box4:hover{box-shadow:2px 2px 20px white}
+.box5{height:60px;width:130px;text-align:center;font-size:18px;padding-top:18px;box-sizing:border-box;color:#6c757d;}
+.box5:hover{color:white}
+.box6{height:60px;width:130px;text-align:center;font-size:18px;padding-top:18px;box-sizing:border-box;color:#6c757d}
+.box6:hover{color:white}
+.box7{height:60px;width:130px;text-align:center;font-size:18px;padding-top:18px;box-sizing:border-box;color:#6c757d}
+.box7:hover{color:white}
+.box8{height:240px;width:71%;margin-left:300px;margin-top:100px}
+.h1{margin-left:270px;color:white;font-size:35px}
+.h2{color:white;font-size:35px;margin-left:60px;margin-top:-17px}
+.p1{color:white;font-size:18px;letter-spacing:5px;margin-left:30px}
+.box9{height:70px;width:60%;margin-left:290px;display:flex;justify-content:center}
+.box10{border:1px solid white;border-radius:25px 25px 25px 25px;height:55px;width:100px;color:white;font-size:20px;box-sizing:border-box;padding-left:35px;padding-top:13px}
+.box11{height:55px;width:140px;color:#ccc;font-size:20px;border-radius:30px 30px 30px 30px;padding-left:36px;padding-top:15px;box-sizing:border-box;}
+.box11:hover{border:1px solid white;height:55px;width:140px;color:white}
+ .box12{background-color:#101010;height:1050px;width:98%;margin-left:15px;display:flex;flex-wrap:wrap;justify-content:space-between}
+.box13{background-color:red;height:250px;width:360px;position:relative}
+.box14{position:absolute;background-color:black;margin-left:18px;height:60px;width:330px;bottom:20px;transition:.4s;opacity:0;overflow:hidden}
+.box13:hover .box14{height:60px;transition:.4s;opacity:1}
+.h4{font-size:30px;margin-left:10px;text-align:center;color:white;transform:translateY(30px);transition: .5s}
+.box13:hover .h4{transform:translateY(-10px)}
+.img{height:250px;width:360px;}
+.h5{color:white;font-size:25px;text-align:center;transform:translateY(30px);transition: .5s}
+.box13:hover .h5{transform:translateY(-2px)}
+.box15{border-bottom:1px solid #ccc;height:100px;width:100%;}
+.box16{height:100px;width:100%;margin-top:110px;}
+.h6{font-size:31px;color:white;display:flex;justify-content:center;align-items:flex-start}
+.p2{font-size:17px;color:white;display:flex;justify-content:center;align-items:flex-start}
+.box17{height:90px;width:100%;display:flex;justify-content:center;margin-top:30px}
+.box17 i{font-size:40px;color:#6c757d;margin-left:30px;transition:1s}
+.box17 i:hover{color:#fff}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) 
+{
+body{background-color:#101010;height:435%}
+.box1{background-color:red;height:170px;width:100%;display:flex;flex-direction:column}
+.box2{background-color:black;height:170px;width:100%;display:flex;align-items:center }
+.box3{background-color:black;height:170px;width:100%;display:flex;align-items:center;flex-direction:column;display:none}
+.box1:hover .box3{display:block;}
+.h{font-style:italic;font-size:40px;margin-left:130px;color:white;text-shadow:2px 2px 40px white}
+.box4{border:1px solid #ccc;height:60px;width:100%;border-radius:20px 20px 20px 20px;text-align:center;font-size:18px;padding-top:18px;box-sizing:border-box;color:white}
+.box4:hover{box-shadow:2px 2px 20px white}
+.box5{height:60px;width:100%;text-align:center;font-size:18px;padding-top:18px;box-sizing:border-box;color:#6c757d;}
+.box5:hover{color:white;border:1px solid #ccc;border-radius:20px 20px 20px 20px;}
+.box6{height:60px;width:100%;text-align:center;font-size:18px;padding-top:18px;box-sizing:border-box;color:#6c757d}
+.box6:hover{color:white;border:1px solid #ccc;border-radius:20px 20px 20px 20px;}
+.box7{height:60px;width:100%;text-align:center;font-size:18px;padding-top:18px;box-sizing:border-box;color:#6c757d}
+.box7:hover{color:white;border:1px solid #ccc;border-radius:20px 20px 20px 20px;}
+.box8{background-color:black;height:240px;width:100%;margin-left:5px;margin-top:180px}
+.h1{margin-left:60px;color:white;font-size:30px}
+.h2{color:white;font-size:25px;margin-left:30px;text-align:center}
+.p1{color:white;font-size:18px;letter-spacing:5px;margin-left:30px}	
+.box9{background-color:black;height:70px;width:100%;margin-left:10px;display:flex;justify-content:center}
+.box10{border:1px solid white;border-radius:25px 25px 25px 25px;height:50px;width:90px;color:white;font-size:18px;box-sizing:border-box;padding-left:35px;padding-top:13px}
+.box11{height:45px;width:110px;color:#ccc;font-size:18px;border-radius:30px 30px 30px 30px;padding-left:28px;padding-top:15px;box-sizing:border-box;}
+.box11:hover{border:1px solid white;height:45px;width:110px;color:white}
+.box12{background-color:#101010;height:4300px;width:100%;margin-left:0px;display:flex;flex-wrap:wrap;}
+.box13{background-color:green;height:250px;width:95%;margin-left:12px;position:relative;margin-top:10px}
+.box14{position:absolute;background-color:black;margin-left:10px;height:60px;width:96%;bottom:30px;transition:.4s;opacity:0;overflow:hidden}
+.box13:hover .box14{height:60px;transition:.4s;opacity:1}
+.h4{font-size:30px;margin-left:10px;text-align:center;color:white;transform:translateY(30px);transition: .5s}
+.box13:hover .h4{transform:translateY(-10px)}
+.img{height:250px;width:100%}
+.h5{color:white;font-size:25px;text-align:center;transform:translateY(30px);transition: .5s}
+.box13:hover .h5{transform:translateY(-2px)}
+.box15{border-bottom:4px solid #ccc;height:100px;width:100%;}
+.box16{height:100px;width:100%;}
+.h6{font-size:31px;color:white;display:flex;justify-content:center;align-items:flex-start}
+.p2{font-size:17px;color:white;display:flex;justify-content:center;align-items:flex-start}
+.box17{height:90px;width:100%;display:flex;justify-content:center;margin-top:30px}
+.box17 i{font-size:30px;color:#6c757d;margin-left:30px}
+.box17 i:hover{color:#fff}
+}	
+	
